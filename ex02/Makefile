@@ -4,10 +4,10 @@ CC = g++
 RM = rm -f
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-
-
 SRC = main.cpp Fixed.cpp
 OBJ = $(SRC:.cpp=.o)
+
+INCS = Fixed.hpp
 
 all: $(NAME)
 

@@ -6,7 +6,7 @@
 /*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 18:17:16 by hrinka            #+#    #+#             */
-/*   Updated: 2024/03/01 18:20:06 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/15 19:25:36 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,6 @@ int	main(void)
 	std::cout << a++ << std::endl;
 	std::cout << a << std::endl;
 	std::cout << b << std::endl;
-	std::cout << Fixed::max(a. b) << std::endl;
+	std::cout << Fixed::max(a, b) << std::endl;
 	return (0);
 }
