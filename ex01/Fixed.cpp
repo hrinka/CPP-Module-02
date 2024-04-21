@@ -6,7 +6,7 @@
 /*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 14:51:16 by hrinka            #+#    #+#             */
-/*   Updated: 2024/04/16 15:16:00 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/20 20:20:30 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ Fixed::Fixed(const int value): _value(value * ft_pow(2, this->_frac))
 } 
 
 Fixed::Fixed(const float value): _value(value * ft_pow(2, this->_frac))
-{  
+{
 	std::cout << "Fixed object created with float constructor" << std::endl; 
 } 
 
