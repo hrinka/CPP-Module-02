@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hrinka <hrinka@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 18:17:16 by hrinka            #+#    #+#             */
-/*   Updated: 2024/04/16 14:23:54 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/22 21:03:29 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,9 +83,8 @@ int main() {
     std::cout << "Max of " << b << " and " << c << ": " << Fixed::max(b, c) << std::endl;
 
     // 型変換機能
-    std::cout << b << " as float = " << b.toFloat() << std::endl;
-    std::cout << c << " as int = " << c.toInt() << std::endl;
+    std::cout << b << " as int = " << b.toInt() << std::endl;
+    std::cout << c << " as float = " << c.toFloat() << std::endl;
 
     return 0;
 }
-

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hrinka <hrinka@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 14:51:16 by hrinka            #+#    #+#             */
-/*   Updated: 2024/04/20 20:20:30 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/21 17:17:38 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,18 +33,18 @@ const int	Fixed::_frac = 8;
 
 Fixed::Fixed(void): _value(0)
 {
-	std::cout << "Fixed object created with default constructor" << std::endl; 
+	std::cout << "Fixed object created with default constructor" << std::endl;
 }
 
 Fixed::Fixed(const int value): _value(value * ft_pow(2, this->_frac))
-{  
-	std::cout << "Fixed object created with int constructor" << std::endl; 
-} 
+{
+	std::cout << "Fixed object created with int constructor" << std::endl;
+}
 
 Fixed::Fixed(const float value): _value(value * ft_pow(2, this->_frac))
 {
-	std::cout << "Fixed object created with float constructor" << std::endl; 
-} 
+	std::cout << "Fixed object created with float constructor" << std::endl;
+}
 
 Fixed::~Fixed(void)
 {

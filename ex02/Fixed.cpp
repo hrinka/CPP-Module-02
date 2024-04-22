@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hrinka <hrinka@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 17:51:17 by hrinka            #+#    #+#             */
-/*   Updated: 2024/04/15 19:25:27 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/21 17:27:52 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,11 +66,11 @@ Fixed	&Fixed::operator=(Fixed const &copy)
 {
 	this->_value = copy.getRawBits();
 	return (*this);
-}	
+}
 
 Fixed	Fixed::operator+(Fixed const &copy) const
 {
-	Fixed	result(this->toFloat() - copy.toFloat());
+	Fixed	result(this->toFloat() + copy.toFloat());
 	return (result);
 }
 

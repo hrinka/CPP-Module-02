@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hrinka <hrinka@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 15:16:36 by hrinka            #+#    #+#             */
-/*   Updated: 2024/04/16 15:16:53 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/21 17:17:42 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
 
-int	main( void ) 
+int	main( void )
 {
 	Fixed a;
 	Fixed const b( 10 );

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hrinka <hrinka@student.42.fr>              +#+  +:+       +#+        */
+/*   By: hrinka <hrinka@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 14:45:39 by hrinka            #+#    #+#             */
-/*   Updated: 2024/04/16 14:50:17 by hrinka           ###   ########.fr       */
+/*   Updated: 2024/04/21 17:25:14 by hrinka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FIxed_HPP
+#ifndef FIXED_HPP
 
 # define FIXED_HPP
 
@@ -25,6 +25,7 @@ class	Fixed
 	public:
 		Fixed(void);
 		Fixed(const int value);
+		Fixed(const float value);
 		~Fixed(void);
 		Fixed(Fixed const &copy);
 		Fixed	&operator=(Fixed const &copy);
